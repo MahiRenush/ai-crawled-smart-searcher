@@ -1,0 +1,14 @@
+# Ignore all .zap files
+*.zap
+
+# Ignore .zap files in nested directories
+**/*.zap
+**/*.zap
+**/**/*.zap
+**/**/**/*.zap
+**/**/**/**/*.zap
+
+**/*.db
+build/
+node-modules
+dist/
